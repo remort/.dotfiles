@@ -42,7 +42,7 @@ set atblanks
 
 ## Constantly display the cursor position in the status bar.  Note that
 ## this overrides "quickblank".
-# set constantshow
+set constantshow
 ## (The old form, 'const', is deprecated.)
 
 ## Use cut-from-cursor-to-end-of-line by default.
@@ -71,7 +71,7 @@ set locking
 # set matchbrackets "(<[{)>]}"
 
 ## Use the blank line below the title bar as extra editing space.
-# set morespace
+set morespace
 
 ## Enable mouse support, if available for your system.  When enabled,
 ## mouse clicks can be used to place the cursor, set the mark (with a
@@ -87,7 +87,7 @@ set mouse
 # set noconvert
 
 ## Don't display the helpful shortcut lists at the bottom of the screen.
-# set nohelp
+set nohelp
 
 ## Don't pause between warnings at startup.  Which means that only the
 ## last one will be readable (when there are multiple ones).
