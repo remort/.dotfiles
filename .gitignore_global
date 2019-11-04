@@ -1,0 +1,30 @@
+# Python
+__pycache__
+*.py[co]
+
+# Celery
+celerybeat-schedule
+
+# MyPy
+.mypy_cache
+
+# Mac
+.DS_Store
+
+# Windows
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Backup files
+*~
+
+# JetBrains IDE
+.idea/
+
+# Don't push production secrets to repository!
+.env
+environment/production.env
+
+# Django
+media/**
+static/**
