@@ -28,3 +28,6 @@ environment/production.env
 # Django
 media/**
 static/**
+
+# My custom DB backup Makefile targets use this directory
+db_backup
