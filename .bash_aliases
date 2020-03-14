@@ -6,7 +6,7 @@ function video2mp4 {
     FILE="$1"
     FILENAME="${FILE%.*}.mp4"
 
-    ffmpeg -i "${FILE}" -vf "scale=iw/2:ih/2" -c:v libx264 -preset slow -b:v 500k -c:a aac -b:a 128k "${FILENAME}"
+    ffmpeg -i "${FILE}" -vf "scale=iw/2:-2" -c:v libx264 -preset slow -b:v 500k -c:a aac -b:a 128k "${FILENAME}"
 }
 export -f video2mp4
 
