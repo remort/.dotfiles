@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=recordmydesktop
+Comment=
+Exec=recordmydesktop --delay=1 --no-sound --output=/tmp/record -x 300 -y 200 --width=1400 --height=800 --v_quality=45 --fps=20 --overwrite --stop-shortcut=Control+s
+Icon=multimedia-photo-manager
+Path=/tmp
+Terminal=false
+StartupNotify=false
